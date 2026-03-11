@@ -106,9 +106,10 @@ RAG-App
 ├── main.py                  # FastAPI backend and Inngest workflow functions
 ├── custom_types.py          # Custom data models used across the project
 ├── streamlit_app.py         # Streamlit UI for uploading PDFs and asking questions
-├── ui_&_inngest-server.png  #Screenshot of the Interface and Inngest Server
+├── ui_&_inngest-server.png  # Screenshot of the Interface and Inngest Server
 ├── pyproject.toml           # Project dependencies
 ├── README.md                # Project documentation
 ├── .gitignore               # Files ignored by Git
 └── uv.lock                  # Dependency lock file
+
 
