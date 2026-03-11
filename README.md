@@ -86,16 +86,16 @@ The workflow orchestration and event handling are managed using **Inngest**, ens
 ### Run the Project
 
 1. Start Qdrant
-docker start qdrant_DB
+`docker start qdrant_DB`
 
 2. Start FastAPI
-uv run uvicorn main:app
+`uv run uvicorn main:app`
 
 3. Start Inngest
-npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest --no-discovery
+`npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest --no-discovery`
 
 4. Start Streamlit
-streamlit run streamlit_app.py
+`streamlit run streamlit_app.py`
 
 ## Project Structure
 ```text
@@ -111,3 +111,4 @@ RAG-App
 ├── README.md                # Project documentation
 ├── .gitignore               # Files ignored by Git
 └── uv.lock                  # Dependency lock file
+
